@@ -1302,11 +1302,15 @@ input::-ms-input-placeholder {
 
 #login .login-form .control-group {
   margin-bottom: 15px;
+  width: 100%;
 }
 
 #login .login-form label {
   font-size: 14px;
   font-weight: 600;
+  width: auto;
+  float: left;
+  clear: both;
 }
 
 #login .login-form input[type='text'],
@@ -1318,6 +1322,7 @@ input::-ms-input-placeholder {
   box-shadow: none;
   border: 1px solid #ddd;
   border-radius: 0;
+  width: 100%; /* Lebar input mengikuti lebar container */
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
